@@ -1654,6 +1654,7 @@ id BOTTOM_END
 id BOTTOM_START
 id CTRL
 id FUNCTION
+id First2Fragment
 id FirstFragment
 id META
 id NO_DEBUG
@@ -1662,6 +1663,7 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
+id Second2Fragment
 id SecondFragment
 id TOP_END
 id TOP_START
@@ -1699,7 +1701,9 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id action_First2Fragment_to_Second2Fragment
 id action_FirstFragment_to_SecondFragment
+id action_Second2Fragment_to_First2Fragment
 id action_SecondFragment_to_FirstFragment
 id action_bar
 id action_bar_activity_content
@@ -1814,6 +1818,7 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
+id fab
 id fade
 id fill
 id fill_horizontal
@@ -2023,6 +2028,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toolbar
 id top
 id topPanel
 id touch_outside
@@ -2112,9 +2118,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_forgot
 layout activity_login
 layout activity_main
 layout activity_register
+layout content_forgot
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2132,7 +2140,9 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_first
+layout fragment_first2
 layout fragment_second
+layout fragment_second2
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -2244,11 +2254,18 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string default_web_client_id
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string firebase_database_url
 string first_fragment_label
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string hello_first_fragment
 string hello_second_fragment
 string hide_bottom_view_on_scroll_behavior
@@ -2303,11 +2320,13 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string previous
+string project_id
 string prompt_email
 string prompt_password
 string search_menu_title
 string second_fragment_label
 string status_bar_notification_info_overflow
+string title_activity_forgot
 string title_activity_login
 string welcome
 style AlertDialog_AppCompat

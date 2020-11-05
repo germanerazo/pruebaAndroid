@@ -1,6 +1,7 @@
 package com.co.prueba.ui.login
 
 import android.app.Activity
+import android.content.Intent
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import android.os.Bundle
@@ -16,10 +17,13 @@ import android.widget.ProgressBar
 import android.widget.Toast
 
 import com.co.prueba.R
+import com.co.prueba.forgot.ForgotActivity
+import com.co.prueba.register.RegisterActivity
 
 class LoginActivity : AppCompatActivity() {
 
     private lateinit var loginViewModel: LoginViewModel
+    private lateinit var btnGoRegister: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,6 +34,7 @@ class LoginActivity : AppCompatActivity() {
         val password = findViewById<EditText>(R.id.password)
         val login = findViewById<Button>(R.id.login)
         val loading = findViewById<ProgressBar>(R.id.loading)
+        val btnGoRegister = findViewById<Button>(R.id.btnGoRegister)
 
         loginViewModel = ViewModelProviders.of(this, LoginViewModelFactory())
             .get(LoginViewModel::class.java)
@@ -110,6 +115,14 @@ class LoginActivity : AppCompatActivity() {
 
     private fun showLoginFailed(@StringRes errorString: Int) {
         Toast.makeText(applicationContext, errorString, Toast.LENGTH_SHORT).show()
+    }
+
+    fun goRegister(view: View){
+        startActivity(Intent(this, RegisterActivity::class.java))
+    }
+
+    fun forgotPassword(view: View){
+        startActivity(Intent(this, ForgotActivity::class.java))
     }
 }
 

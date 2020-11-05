@@ -4,7 +4,7 @@
             "outputFile": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/germanerazo/.gradle/caches/transforms-2/files-2.1/4e039017508058e03141616af225b4eb/appcompat-1.2.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "/Users/germanerazo/.gradle/caches/transforms-2/files-2.1/fafcc540a93a026b8f5fc4ffaf74620d/appcompat-1.2.0/res/values-hdpi-v4/values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

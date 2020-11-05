@@ -1013,11 +1013,18 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="default_web_client_id" translatable="false">289518672543-7c71na1gsgam23kjsn9fbphdlgrdj7rn.apps.googleusercontent.com</string>
     <string name="error_icon_content_description">Error</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
+    <string name="firebase_database_url" translatable="false">https://androidprueba-980a1.firebaseio.com</string>
     <string name="first_fragment_label">First Fragment</string>
+    <string name="gcm_defaultSenderId" translatable="false">289518672543</string>
+    <string name="google_api_key" translatable="false">AIzaSyCizU90ID_uFnXHay1r5yFV-bqEXclhRuU</string>
+    <string name="google_app_id" translatable="false">1:289518672543:android:6118881e2fb3c15926a0aa</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCizU90ID_uFnXHay1r5yFV-bqEXclhRuU</string>
+    <string name="google_storage_bucket" translatable="false">androidprueba-980a1.appspot.com</string>
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="hide_bottom_view_on_scroll_behavior" translatable="false">com.google.android.material.behavior.HideBottomViewOnScrollBehavior</string>
@@ -1072,11 +1079,13 @@
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="previous">Previous</string>
+    <string name="project_id" translatable="false">androidprueba-980a1</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
     <string name="search_menu_title">Search</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="title_activity_forgot">ForgotActivity</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="welcome">"Welcome !"</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
