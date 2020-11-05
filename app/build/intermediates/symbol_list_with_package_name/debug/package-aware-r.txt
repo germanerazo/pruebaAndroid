@@ -1221,6 +1221,8 @@ dimen abc_text_size_title_material_toolbar
 dimen action_bar_size
 dimen activity_horizontal_margin
 dimen activity_vertical_margin
+dimen appbar_padding
+dimen appbar_padding_top
 dimen appcompat_dialog_background_inset
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
@@ -1655,6 +1657,7 @@ id BOTTOM_START
 id CTRL
 id FUNCTION
 id First2Fragment
+id First3Fragment
 id FirstFragment
 id META
 id NO_DEBUG
@@ -1664,6 +1667,7 @@ id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
 id Second2Fragment
+id Second3Fragment
 id SecondFragment
 id TOP_END
 id TOP_START
@@ -1702,8 +1706,10 @@ id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
 id action_First2Fragment_to_Second2Fragment
+id action_First3Fragment_to_Second3Fragment
 id action_FirstFragment_to_SecondFragment
 id action_Second2Fragment_to_First2Fragment
+id action_Second3Fragment_to_First3Fragment
 id action_SecondFragment_to_FirstFragment
 id action_bar
 id action_bar_activity_content
@@ -1746,6 +1752,7 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btnForgot
 id btnGoRegister
 id btnRegister
 id buttonPanel
@@ -1770,6 +1777,7 @@ id clip_horizontal
 id clip_vertical
 id collapseActionView
 id confirm_button
+id constraintLayout
 id container
 id content
 id contentPanel
@@ -1961,6 +1969,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id section_label
 id select_dialog_listview
 id selected
 id shortcut
@@ -2119,10 +2128,12 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_forgot
+layout activity_home
 layout activity_login
 layout activity_main
 layout activity_register
 layout content_forgot
+layout content_home
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2141,8 +2152,11 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout fragment_first
 layout fragment_first2
+layout fragment_first3
+layout fragment_home
 layout fragment_second
 layout fragment_second2
+layout fragment_second3
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -2326,7 +2340,10 @@ string prompt_password
 string search_menu_title
 string second_fragment_label
 string status_bar_notification_info_overflow
+string tab_text_1
+string tab_text_2
 string title_activity_forgot
+string title_activity_home
 string title_activity_login
 string welcome
 style AlertDialog_AppCompat

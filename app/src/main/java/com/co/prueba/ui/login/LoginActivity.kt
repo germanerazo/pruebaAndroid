@@ -8,22 +8,29 @@ import android.os.Bundle
 import androidx.annotation.StringRes
 import androidx.appcompat.app.AppCompatActivity
 import android.text.Editable
+import android.text.TextUtils
 import android.text.TextWatcher
+import android.util.Log
 import android.view.View
 import android.view.inputmethod.EditorInfo
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.Toast
+import com.co.prueba.MainActivity
 
 import com.co.prueba.R
 import com.co.prueba.forgot.ForgotActivity
+import com.co.prueba.home.HomeActivity
 import com.co.prueba.register.RegisterActivity
+import com.google.firebase.auth.FirebaseAuth
+import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {
 
     private lateinit var loginViewModel: LoginViewModel
     private lateinit var btnGoRegister: Button
+    private lateinit var auth:FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -34,7 +41,9 @@ class LoginActivity : AppCompatActivity() {
         val password = findViewById<EditText>(R.id.password)
         val login = findViewById<Button>(R.id.login)
         val loading = findViewById<ProgressBar>(R.id.loading)
-        val btnGoRegister = findViewById<Button>(R.id.btnGoRegister)
+
+        btnGoRegister = findViewById(R.id.btnGoRegister)
+        auth = FirebaseAuth.getInstance()
 
         loginViewModel = ViewModelProviders.of(this, LoginViewModelFactory())
             .get(LoginViewModel::class.java)
@@ -103,26 +112,41 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun updateUiWithUser(model: LoggedInUserView) {
-        val welcome = getString(R.string.welcome)
-        val displayName = model.displayName
-        // TODO : initiate successful logged in experience
-        Toast.makeText(
-            applicationContext,
-            "$welcome $displayName",
-            Toast.LENGTH_LONG
-        ).show()
+        val email:String=username.text.toString()
+        val password:String=password.text.toString()
+
+        if(!TextUtils.isEmpty(email) && !TextUtils.isEmpty(password) ){
+            loading.visibility=View.VISIBLE
+            auth.signInWithEmailAndPassword(email,password)
+                .addOnCompleteListener(this) { task ->
+                    if (task.isSuccessful) {
+                        // Sign in success, update UI with the signed-in user's information
+                        Log.d("User", "signInWithEmail:success")
+                        action()
+                    } else {
+                        // If sign in fails, display a message to the user.
+                        Log.w("Error", "signInWithEmail:failure", task.exception)
+                        Toast.makeText(baseContext, task.exception.toString(),
+                            Toast.LENGTH_LONG).show()
+                    }
+                }
+        }
     }
 
     private fun showLoginFailed(@StringRes errorString: Int) {
         Toast.makeText(applicationContext, errorString, Toast.LENGTH_SHORT).show()
     }
 
-    fun goRegister(view: View){
-        startActivity(Intent(this, RegisterActivity::class.java))
-    }
-
     fun forgotPassword(view: View){
         startActivity(Intent(this, ForgotActivity::class.java))
+    }
+
+    private fun action(){
+        startActivity(Intent(this, HomeActivity::class.java))
+    }
+
+    fun goRegister(view: View) {
+        startActivity(Intent(this, RegisterActivity::class.java))
     }
 }
 

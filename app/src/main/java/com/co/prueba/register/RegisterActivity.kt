@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
+import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
@@ -50,10 +51,10 @@ class RegisterActivity : AppCompatActivity() {
     }
 
     fun register(view: View){
-        createAcoount()
+        createAcount()
     }
 
-    private fun createAcoount(){
+    private fun createAcount(){
         val name: String= edtName.text.toString()
         val email: String= edtEmail.text.toString()
         val phone: String= edtPhone.text.toString()
@@ -63,19 +64,24 @@ class RegisterActivity : AppCompatActivity() {
         if(!TextUtils.isEmpty(name) && !TextUtils.isEmpty(email) && !TextUtils.isEmpty(phone) && !TextUtils.isEmpty(password) && !TextUtils.isEmpty(confirmPassord)  ){
             if (password == confirmPassord){
                  progressbar.visibility = View.VISIBLE
-                auth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(this){
+                    auth.createUserWithEmailAndPassword(email, password).addOnCompleteListener(this){
                     task ->
-                    if(task.isComplete){
+                    if(task.isSuccessful){
+                        Log.d("isSuccessful", "createUserWithEmail:success")
                         val user:FirebaseUser?=auth.currentUser
+                        Log.e("user", user?.uid.toString())
                         sentEmail(user)
 
                         val userDB= user?.uid?.let { dbReference.child(it) }
                         userDB?.child("Name")?.setValue(name)
                         userDB?.child("Phone")?.setValue(phone)
                         action()
+                    }else{
+                        Log.w("ERROR", "createUserWithEmail:failure", task.exception)
+                        Toast.makeText(baseContext, "Authentication failed.",
+                            Toast.LENGTH_SHORT).show()
                     }
                 }
-
             }
         }
     }

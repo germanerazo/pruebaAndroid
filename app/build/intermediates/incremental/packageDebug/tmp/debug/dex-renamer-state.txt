@@ -1,4 +1,4 @@
-#Thu Nov 05 10:29:23 COT 2020
+#Thu Nov 05 12:41:01 COT 2020
 base.0=/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

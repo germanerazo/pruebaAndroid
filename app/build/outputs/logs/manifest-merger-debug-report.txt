@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-27:12
+ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-31:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/483f997d2f2b79df261ec6e5af3d6de5/navigation-fragment-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/62e7d24f74eb17d52f393123bf172c1e/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/ad97e45d67b7174ef0f784907d6720b8/navigation-ui-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
@@ -62,25 +62,25 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/f6471fd12df3f044efb87a2be31fc447/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/a1881213ea6f490c04e458e4581300ab/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/9feb8a007673de37c251d7b3ea6048cb/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-27:12
-INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:3:5-28
 		INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml
-		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-27:12
+		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-31:12
 		INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml
-		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-27:12
+		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-31:12
 		INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:5:5-25:19
+ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:5:5-29:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/cb8b19e2ecffb4c00ce385ef77c2a73a/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/cb8b19e2ecffb4c00ce385ef77c2a73a/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.2.1] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/525b93ae77213c4b82c81f99508ed02b/material-1.2.1/AndroidManifest.xml:22:5-20
@@ -123,36 +123,44 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/germ
 		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:11:9-40
-activity#com.co.prueba.forgot.ForgotActivity
+activity#com.co.prueba.home.HomeActivity
 ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:12:9-15:68
 	android:label
-		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:14:13-58
+		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:14:13-56
 	android:theme
 		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:15:13-56
 	android:name
-		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:13:13-50
+		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:13:13-46
+activity#com.co.prueba.forgot.ForgotActivity
+ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:16:9-19:59
+	android:label
+		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:18:13-58
+	android:theme
+		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:19:13-56
+	android:name
+		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:17:13-50
 activity#com.co.prueba.register.RegisterActivity
-ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:16:9-63
+ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:20:9-63
 	android:name
-		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:16:19-60
+		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:20:19-60
 activity#com.co.prueba.MainActivity
-ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:17:9-50
+ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:21:9-50
 	android:name
-		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:17:19-47
+		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:21:19-47
 activity#com.co.prueba.ui.login.LoginActivity
-ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:18:9-24:20
+ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:22:9-28:20
 	android:name
-		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:18:19-57
+		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:22:19-57
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:19:13-23:29
+ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:23:13-27:29
 action#android.intent.action.MAIN
-ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:20:17-69
+ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:20:25-66
+		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:22:17-77
+ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:26:17-77
 	android:name
-		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:22:27-74
+		ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:26:27-74
 uses-sdk
 INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml
