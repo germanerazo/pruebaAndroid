@@ -1658,6 +1658,7 @@ id CTRL
 id FUNCTION
 id First2Fragment
 id First3Fragment
+id First4Fragment
 id FirstFragment
 id META
 id NO_DEBUG
@@ -1668,6 +1669,7 @@ id SHOW_PROGRESS
 id SYM
 id Second2Fragment
 id Second3Fragment
+id Second4Fragment
 id SecondFragment
 id TOP_END
 id TOP_START
@@ -1707,9 +1709,11 @@ id accessibility_custom_action_8
 id accessibility_custom_action_9
 id action_First2Fragment_to_Second2Fragment
 id action_First3Fragment_to_Second3Fragment
+id action_First4Fragment_to_Second4Fragment
 id action_FirstFragment_to_SecondFragment
 id action_Second2Fragment_to_First2Fragment
 id action_Second3Fragment_to_First3Fragment
+id action_Second4Fragment_to_First4Fragment
 id action_SecondFragment_to_FirstFragment
 id action_bar
 id action_bar_activity_content
@@ -1752,9 +1756,13 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btnCreate
+id btnDelete
 id btnForgot
 id btnGoRegister
 id btnRegister
+id btnSent
+id btnUpdate
 id buttonPanel
 id button_first
 id button_second
@@ -1817,9 +1825,11 @@ id easeOut
 id edit_query
 id edtConfirmPassword
 id edtEmail
+id edtLastName
 id edtName
 id edtPassword
 id edtPhone
+id edtSearch
 id end
 id enterAlways
 id enterAlwaysCollapsed
@@ -1871,6 +1881,7 @@ id light
 id line1
 id line3
 id linear
+id listContacts
 id listMode
 id list_item
 id loading
@@ -2019,6 +2030,8 @@ id test_radiobutton_app_button_tint
 id text
 id text2
 id textEnd
+id textLastName
+id textName
 id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
@@ -2127,11 +2140,14 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_contact
 layout activity_forgot
 layout activity_home
 layout activity_login
 layout activity_main
 layout activity_register
+layout contacts
+layout content_contact
 layout content_forgot
 layout content_home
 layout custom_dialog
@@ -2153,10 +2169,12 @@ layout design_text_input_start_icon
 layout fragment_first
 layout fragment_first2
 layout fragment_first3
+layout fragment_first4
 layout fragment_home
 layout fragment_second
 layout fragment_second2
 layout fragment_second3
+layout fragment_second4
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -2342,6 +2360,7 @@ string second_fragment_label
 string status_bar_notification_info_overflow
 string tab_text_1
 string tab_text_2
+string title_activity_contact
 string title_activity_forgot
 string title_activity_home
 string title_activity_login

@@ -16,6 +16,10 @@
         "source": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/res/layout/fragment_first.xml"
     },
     {
+        "merged": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/res/merged/debug/layout_contacts.xml.flat",
+        "source": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/res/layout/contacts.xml"
+    },
+    {
         "merged": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/res/merged/debug/layout_activity_register.xml.flat",
         "source": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/res/layout/activity_register.xml"
     },
@@ -26,6 +30,10 @@
     {
         "merged": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/res/merged/debug/layout_fragment_first4.xml.flat",
+        "source": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/res/layout/fragment_first4.xml"
     },
     {
         "merged": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
@@ -50,6 +58,10 @@
     {
         "merged": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/res/merged/debug/layout_content_home.xml.flat",
         "source": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/res/layout/content_home.xml"
+    },
+    {
+        "merged": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/res/merged/debug/layout_fragment_second4.xml.flat",
+        "source": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/res/layout/fragment_second4.xml"
     },
     {
         "merged": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
@@ -80,6 +92,10 @@
         "source": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/res/layout/activity_main.xml"
     },
     {
+        "merged": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/res/merged/debug/layout_activity_contact.xml.flat",
+        "source": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/res/layout/activity_contact.xml"
+    },
+    {
         "merged": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
@@ -90,6 +106,10 @@
     {
         "merged": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/res/merged/debug/layout_fragment_first3.xml.flat",
         "source": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/res/layout/fragment_first3.xml"
+    },
+    {
+        "merged": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/res/merged/debug/layout_content_contact.xml.flat",
+        "source": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/res/layout/content_contact.xml"
     },
     {
         "merged": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",

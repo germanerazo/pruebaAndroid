@@ -75,7 +75,7 @@ class LoginActivity : AppCompatActivity() {
             setResult(Activity.RESULT_OK)
 
             //Complete and destroy login activity once successful
-            finish()
+            //finish()
         })
 
         username.afterTextChanged {
@@ -126,8 +126,9 @@ class LoginActivity : AppCompatActivity() {
                     } else {
                         // If sign in fails, display a message to the user.
                         Log.w("Error", "signInWithEmail:failure", task.exception)
-                        Toast.makeText(baseContext, task.exception.toString(),
+                        Toast.makeText(applicationContext, "Invalid username and / or password",
                             Toast.LENGTH_LONG).show()
+                        loading.visibility=View.GONE
                     }
                 }
         }
