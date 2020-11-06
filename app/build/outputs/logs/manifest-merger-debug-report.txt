@@ -4,6 +4,7 @@ ADDED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/
 INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-35:12
 INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-35:12
 INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-35:12
+MERGED from [com.xwray:groupie-kotlin-android-extensions:2.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/25037118372a75e20a5188b5b776c03c/jetified-groupie-kotlin-android-extensions-2.3.0/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/483f997d2f2b79df261ec6e5af3d6de5/navigation-fragment-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/62e7d24f74eb17d52f393123bf172c1e/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/ad97e45d67b7174ef0f784907d6720b8/navigation-ui-ktx-2.3.0/AndroidManifest.xml:17:1-24:12
@@ -19,17 +20,22 @@ MERGED from [androidx.navigation:navigation-ui:2.3.0] /Users/germanerazo/.gradle
 MERGED from [com.google.android.material:material:1.2.1] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/525b93ae77213c4b82c81f99508ed02b/material-1.2.1/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/fafcc540a93a026b8f5fc4ffaf74620d/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.firebase:firebase-database:19.5.1] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/51f54826aec9443107a150f6b7b634cb/jetified-firebase-database-19.5.1/AndroidManifest.xml:15:1-38:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/50b668cc88e0b8674bebea130f6726de/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/401183df1da03abf41e7e701bd9b48e7/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/20bdcade307810f9025f03cc38f894c5/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/432dd0218d2c41b39659687a3ff9322d/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/b7b535f2ea299df24f161669037b46d0/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/511926eda4b43a4e7d9fd8ab2ad618fc/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/bdd8a57f5057ffbfe04c01ffaa1fb5b0/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/20b3541a2a6124b650b2bd4aa6851267/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/58ef4a98ff0712da617d71dd36dd735b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-auth:20.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/c8091f5356962ce57774f0a545675376/jetified-firebase-auth-20.0.0/AndroidManifest.xml:17:1-91:12
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/0e9e878929aa4b23fddf86559c952d2f/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-auth-interop:19.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/a05f2b255815794c1630bdce76ed05a9/jetified-firebase-auth-interop-19.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:17.4.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/096d35b1b281f7b27e37536270918e57/jetified-play-services-auth-api-phone-17.4.0/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/5be7a75237726740dd93fe37a757c06e/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/d3cf52f6949735ec2e571b7620f0211b/jetified-play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.xwray:groupie:2.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/f3a863e1da10baf5f26c3c21a4e4abde/jetified-groupie-2.3.0/AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/85da0ae4507929c37539df2974060ace/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/d33d16e150f6515b58e695a2ef19eef3/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.navigation:navigation-fragment:2.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/e7189dbfc61ea30eb65609aa53a64602/navigation-fragment-2.3.0/AndroidManifest.xml:17:1-24:12
@@ -39,9 +45,12 @@ MERGED from [com.google.android.gms:play-services-basement:17.1.0] /Users/german
 MERGED from [androidx.fragment:fragment:1.2.4] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/6a8fda5c19123020328c41452a7524ac/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/e0b424b13f834a7af3836a807d4228e2/drawerlayout-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/5dd0821a77cdc6985d6859be48bd1311/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/670a23eae1092cad1e61774bc0767e59/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/bbb7a0d610e7c32a5a460f729eb4f18e/customview-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.transition:transition:1.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/c772a047adfe8711a4e20d9d2225b6e2/transition-1.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.loader:loader:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/b995f6b5344be9949baf1152ee551d19/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/48df12c6530a58ebe40ef33ff79ba370/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/02811ee2b249e664c60cff32a453a08a/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/12426a037454c2a5fc747f33ea3742cd/navigation-runtime-2.3.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/33a894fa058a383e0a56481ad5530c31/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-common:2.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/31a139f366d8e07359b8a62cee7132b7/navigation-common-2.3.0/AndroidManifest.xml:17:1-24:12
@@ -60,6 +69,8 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/germanerazo/.g
 MERGED from [com.google.firebase:firebase-components:16.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/75ab6568506ab0c6486c76bc45e8a0d7/jetified-firebase-components-16.0.0/AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/511d33f634a1c4823bdf66d47bad1b17/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/f6471fd12df3f044efb87a2be31fc447/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/8248a4d04b76f9e14b5e2103b36c29dd/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/b7490d1511b6afbdbc2fa373e0553f15/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/a1881213ea6f490c04e458e4581300ab/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/9feb8a007673de37c251d7b3ea6048cb/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
 INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml:2:1-35:12
@@ -95,6 +106,8 @@ MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/germa
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/5be7a75237726740dd93fe37a757c06e/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/d3cf52f6949735ec2e571b7620f0211b/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/d3cf52f6949735ec2e571b7620f0211b/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.xwray:groupie:2.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/f3a863e1da10baf5f26c3c21a4e4abde/jetified-groupie-2.3.0/AndroidManifest.xml:11:5-12:19
+MERGED from [com.xwray:groupie:2.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/f3a863e1da10baf5f26c3c21a4e4abde/jetified-groupie-2.3.0/AndroidManifest.xml:11:5-12:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/d33d16e150f6515b58e695a2ef19eef3/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/d33d16e150f6515b58e695a2ef19eef3/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
 MERGED from [com.google.firebase:firebase-common:19.3.1] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/9b6aa7c4dbeb35ad41e4412e44abedd5/jetified-firebase-common-19.3.1/AndroidManifest.xml:25:5-38:19
@@ -173,6 +186,8 @@ uses-sdk
 INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml
 INJECTED from /Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/AndroidManifest.xml
+MERGED from [com.xwray:groupie-kotlin-android-extensions:2.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/25037118372a75e20a5188b5b776c03c/jetified-groupie-kotlin-android-extensions-2.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.xwray:groupie-kotlin-android-extensions:2.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/25037118372a75e20a5188b5b776c03c/jetified-groupie-kotlin-android-extensions-2.3.0/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/483f997d2f2b79df261ec6e5af3d6de5/navigation-fragment-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/483f997d2f2b79df261ec6e5af3d6de5/navigation-fragment-ktx-2.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment-ktx:1.2.4] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/62e7d24f74eb17d52f393123bf172c1e/jetified-fragment-ktx-1.2.4/AndroidManifest.xml:20:5-22:41
@@ -203,8 +218,12 @@ MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/germanerazo/.gradle/cach
 MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/fafcc540a93a026b8f5fc4ffaf74620d/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-database:19.5.1] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/51f54826aec9443107a150f6b7b634cb/jetified-firebase-database-19.5.1/AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database:19.5.1] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/51f54826aec9443107a150f6b7b634cb/jetified-firebase-database-19.5.1/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/50b668cc88e0b8674bebea130f6726de/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/50b668cc88e0b8674bebea130f6726de/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/401183df1da03abf41e7e701bd9b48e7/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/401183df1da03abf41e7e701bd9b48e7/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/20bdcade307810f9025f03cc38f894c5/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/20bdcade307810f9025f03cc38f894c5/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/432dd0218d2c41b39659687a3ff9322d/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/432dd0218d2c41b39659687a3ff9322d/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/b7b535f2ea299df24f161669037b46d0/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -213,6 +232,10 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/germanerazo/.g
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/511926eda4b43a4e7d9fd8ab2ad618fc/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/bdd8a57f5057ffbfe04c01ffaa1fb5b0/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/bdd8a57f5057ffbfe04c01ffaa1fb5b0/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/20b3541a2a6124b650b2bd4aa6851267/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/20b3541a2a6124b650b2bd4aa6851267/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/58ef4a98ff0712da617d71dd36dd735b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/58ef4a98ff0712da617d71dd36dd735b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth:20.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/c8091f5356962ce57774f0a545675376/jetified-firebase-auth-20.0.0/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-auth:20.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/c8091f5356962ce57774f0a545675376/jetified-firebase-auth-20.0.0/AndroidManifest.xml:21:5-44
 MERGED from [com.google.firebase:firebase-database-collection:17.0.1] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/0e9e878929aa4b23fddf86559c952d2f/jetified-firebase-database-collection-17.0.1/AndroidManifest.xml:5:5-7:41
@@ -225,6 +248,8 @@ MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/germa
 MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/5be7a75237726740dd93fe37a757c06e/jetified-play-services-safetynet-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/d3cf52f6949735ec2e571b7620f0211b/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/d3cf52f6949735ec2e571b7620f0211b/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.xwray:groupie:2.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/f3a863e1da10baf5f26c3c21a4e4abde/jetified-groupie-2.3.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.xwray:groupie:2.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/f3a863e1da10baf5f26c3c21a4e4abde/jetified-groupie-2.3.0/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/85da0ae4507929c37539df2974060ace/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/85da0ae4507929c37539df2974060ace/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/d33d16e150f6515b58e695a2ef19eef3/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
@@ -243,12 +268,18 @@ MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] /Users/germanerazo/.gradl
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/e0b424b13f834a7af3836a807d4228e2/drawerlayout-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/5dd0821a77cdc6985d6859be48bd1311/viewpager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/5dd0821a77cdc6985d6859be48bd1311/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/670a23eae1092cad1e61774bc0767e59/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/670a23eae1092cad1e61774bc0767e59/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/bbb7a0d610e7c32a5a460f729eb4f18e/customview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.customview:customview:1.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/bbb7a0d610e7c32a5a460f729eb4f18e/customview-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/c772a047adfe8711a4e20d9d2225b6e2/transition-1.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.transition:transition:1.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/c772a047adfe8711a4e20d9d2225b6e2/transition-1.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.loader:loader:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/b995f6b5344be9949baf1152ee551d19/loader-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/b995f6b5344be9949baf1152ee551d19/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/48df12c6530a58ebe40ef33ff79ba370/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/48df12c6530a58ebe40ef33ff79ba370/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/02811ee2b249e664c60cff32a453a08a/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/02811ee2b249e664c60cff32a453a08a/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.navigation:navigation-runtime:2.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/12426a037454c2a5fc747f33ea3742cd/navigation-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.navigation:navigation-runtime:2.3.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/12426a037454c2a5fc747f33ea3742cd/navigation-runtime-2.3.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/33a894fa058a383e0a56481ad5530c31/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
@@ -285,6 +316,10 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/511d33f634a1c4823bdf66d47bad1b17/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/f6471fd12df3f044efb87a2be31fc447/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/f6471fd12df3f044efb87a2be31fc447/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/8248a4d04b76f9e14b5e2103b36c29dd/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/8248a4d04b76f9e14b5e2103b36c29dd/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/b7490d1511b6afbdbc2fa373e0553f15/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/b7490d1511b6afbdbc2fa373e0553f15/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/a1881213ea6f490c04e458e4581300ab/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/a1881213ea6f490c04e458e4581300ab/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/germanerazo/.gradle/caches/transforms-2/files-2.1/9feb8a007673de37c251d7b3ea6048cb/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41

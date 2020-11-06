@@ -37,6 +37,10 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
         setSupportActionBar(findViewById(R.id.toolbar))
 
+        val actionBar = supportActionBar
+        actionBar!!.title = "Contacts"
+
+
         contactList = mutableListOf()
         baseList = mutableListOf()
         listContact = findViewById(R.id.listContacts)
@@ -53,11 +57,16 @@ class HomeActivity : AppCompatActivity() {
             }
 
             override fun onDataChange(snapshot: DataSnapshot) {
+                val userId = FirebaseAuth.getInstance().uid
                 if (snapshot!!.exists()){
                     contactList.clear()
                     for(c in snapshot.children){
                         val contact = c.getValue(Contact::class.java)
-                        contactList.add(contact!!)
+                        if (contact != null) {
+                            if(contact.userId == userId.toString()){
+                                contactList.add(contact!!)
+                            }
+                        }
                     }
                     val adapter = ContactAdapter(this@HomeActivity, R.layout.contacts,contactList)
                     listContact.adapter = adapter

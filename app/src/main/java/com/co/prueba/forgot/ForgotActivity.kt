@@ -24,13 +24,13 @@ class ForgotActivity : AppCompatActivity() {
         setContentView(R.layout.activity_forgot)
         setSupportActionBar(findViewById(R.id.toolbar))
 
+        val actionBar = supportActionBar
+        actionBar!!.title = "Forgot Password"
+
         edtEmail= findViewById(R.id.edtEmail)
         auth = FirebaseAuth.getInstance()
 
-        findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null).show()
-        }
+
     }
 
     fun send(view: View){

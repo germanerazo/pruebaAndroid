@@ -24,6 +24,10 @@
         "source": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/res/layout/activity_register.xml"
     },
     {
+        "merged": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/res/merged/debug/layout_chat_to_row.xml.flat",
+        "source": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/res/layout/chat_to_row.xml"
+    },
+    {
         "merged": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
     },
@@ -50,6 +54,10 @@
     {
         "merged": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/res/merged/debug/layout_fragment_second2.xml.flat",
         "source": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/res/layout/fragment_second2.xml"
+    },
+    {
+        "merged": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/res/merged/debug/layout_chat_from_row.xml.flat",
+        "source": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/res/layout/chat_from_row.xml"
     },
     {
         "merged": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/res/merged/debug/layout_fragment_home.xml.flat",
@@ -110,6 +118,10 @@
     {
         "merged": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/res/merged/debug/layout_content_contact.xml.flat",
         "source": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/res/layout/content_contact.xml"
+    },
+    {
+        "merged": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/res/merged/debug/layout_sentmessage.xml.flat",
+        "source": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/src/main/res/layout/sentmessage.xml"
     },
     {
         "merged": "/Users/germanerazo/Desktop/Proyectos/pruebaAndroid/pruebaAndroid/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",

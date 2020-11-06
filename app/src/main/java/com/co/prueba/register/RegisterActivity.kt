@@ -1,21 +1,25 @@
 package com.co.prueba.register
 
+import android.app.Activity
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.util.Log
 import android.view.View
+import android.view.View.OnFocusChangeListener
+import android.view.inputmethod.InputMethodManager
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.co.prueba.R
 import com.co.prueba.ui.login.LoginActivity
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
+
 
 class RegisterActivity : AppCompatActivity() {
 
@@ -35,6 +39,10 @@ class RegisterActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
+
+        val actionBar = supportActionBar
+        actionBar!!.title = "Register"
+
         edtName= findViewById(R.id.edtName)
         edtEmail= findViewById(R.id.edtEmail)
         edtPhone= findViewById(R.id.edtPhone)
@@ -47,6 +55,36 @@ class RegisterActivity : AppCompatActivity() {
 
         dbReference = database.reference.child("User")
         progressbar = findViewById(R.id.progressBar)
+
+        edtName.setOnFocusChangeListener(OnFocusChangeListener { v, hasFocus ->
+            if (!hasFocus) {
+                hideKeyboard(v)
+            }
+        })
+
+        edtEmail.setOnFocusChangeListener(OnFocusChangeListener { v, hasFocus ->
+            if (!hasFocus) {
+                hideKeyboard(v)
+            }
+        })
+
+        edtPhone.setOnFocusChangeListener(OnFocusChangeListener { v, hasFocus ->
+            if (!hasFocus) {
+                hideKeyboard(v)
+            }
+        })
+
+        edtPassword.setOnFocusChangeListener(OnFocusChangeListener { v, hasFocus ->
+            if (!hasFocus) {
+                hideKeyboard(v)
+            }
+        })
+
+        edtConfirmPassword.setOnFocusChangeListener(OnFocusChangeListener { v, hasFocus ->
+            if (!hasFocus) {
+                hideKeyboard(v)
+            }
+        })
 
     }
 
@@ -73,8 +111,10 @@ class RegisterActivity : AppCompatActivity() {
                         sentEmail(user)
 
                         val userDB= user?.uid?.let { dbReference.child(it) }
-                        userDB?.child("Name")?.setValue(name)
-                        userDB?.child("Phone")?.setValue(phone)
+                        userDB?.child("id")?.setValue(user?.uid)
+                        userDB?.child("name")?.setValue(name)
+                        userDB?.child("phone")?.setValue(phone)
+                        userDB?.child("email")?.setValue(email)
                         action()
                     }else{
                         Log.w("ERROR", "createUserWithEmail:failure", task.exception)
@@ -83,6 +123,8 @@ class RegisterActivity : AppCompatActivity() {
                     }
                 }
             }
+        }else{
+            Toast.makeText(applicationContext, "All fields are required", Toast.LENGTH_LONG).show()
         }
     }
 
@@ -98,6 +140,12 @@ class RegisterActivity : AppCompatActivity() {
 
     private fun action(){
         startActivity(Intent(this, LoginActivity::class.java))
+    }
+
+    fun hideKeyboard(view: View) {
+        val inputMethodManager: InputMethodManager =
+            getSystemService(Activity.INPUT_METHOD_SERVICE) as InputMethodManager
+        inputMethodManager.hideSoftInputFromWindow(view.windowToken, 0)
     }
 
 

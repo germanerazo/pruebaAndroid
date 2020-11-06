@@ -6,12 +6,17 @@ import android.content.DialogInterface
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ArrayAdapter
-import android.widget.Button
-import android.widget.TextView
-import android.widget.Toast
+import android.widget.*
+import androidx.recyclerview.widget.RecyclerView
 import com.co.prueba.R
-import com.google.firebase.database.FirebaseDatabase
+import com.co.prueba.messages.Messages
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.*
+import com.xwray.groupie.GroupAdapter
+import com.xwray.groupie.Item
+import com.xwray.groupie.ViewHolder
+import kotlinx.android.synthetic.main.chat_from_row.view.*
+import kotlinx.android.synthetic.main.chat_to_row.view.*
 
 class ContactAdapter(private val mCtx : Context, private val layoutId:Int, private val contactList:List<Contact>)
     : ArrayAdapter<Contact>(mCtx,layoutId,contactList) {
@@ -43,7 +48,7 @@ class ContactAdapter(private val mCtx : Context, private val layoutId:Int, priva
         }
 
         sentBtn.setOnClickListener {
-            sentMessage()
+            sentMessage(contact)
         }
 
         return view
@@ -94,8 +99,10 @@ class ContactAdapter(private val mCtx : Context, private val layoutId:Int, priva
                     return
                 }
 
-                val contact = Contact(contact.id,name1,lastname2,email3,phone4)
-                myDatabase.child(contact.id).setValue(contact)
+                val userId = FirebaseAuth.getInstance().uid
+
+                val contact = Contact(contact.id,name1,lastname2,email3,phone4, userId.toString(),contact.idContact)
+                myDatabase.child(contact.idContact).setValue(contact)
                 Toast.makeText(mCtx,"Updated ", Toast.LENGTH_LONG).show()
 
 
@@ -115,15 +122,107 @@ class ContactAdapter(private val mCtx : Context, private val layoutId:Int, priva
 
     private fun deleteInfo(contact:Contact){
         val myDatabase = FirebaseDatabase.getInstance().getReference("Contacts")
-        myDatabase.child(contact.id).removeValue()
+        myDatabase.child(contact.idContact).removeValue()
         Toast.makeText(mCtx,"Deleted",Toast.LENGTH_LONG).show()
     }
 
-    private fun sentMessage(){
+    private fun sentMessage(contact: Contact){
+
         val builder = AlertDialog.Builder(mCtx)
-        builder.setTitle("Sent Message")
+        builder.setTitle(contact.name)
         val inflater = LayoutInflater.from(mCtx)
         val view = inflater.inflate(R.layout.sentmessage,null)
+        val adapter = GroupAdapter<ViewHolder>()
+
+        readMessagesDB(adapter, contact)
+
+        val btnSend = view.findViewById<Button>(R.id.btnSend)
+        val reciclerChat = view.findViewById<RecyclerView>(R.id.reciclerChat)
+        val edtMessage = view.findViewById<EditText>(R.id.edtMessage)
+        reciclerChat.adapter = adapter
+
+        btnSend.setOnClickListener{
+            sendMessageDB(edtMessage.text.toString(), contact.id )
+            edtMessage.text = null
+        }
+
+
+        builder.setView(view)
+
+        val alert = builder.create()
+        alert.show()
+
+    }
+
+    fun sendMessageDB(message: String, toId: String){
+
+        val database = FirebaseDatabase.getInstance()
+        val dbReference = database.reference.child("Messages")
+        val messageID = dbReference.push().key
+        val fromId = FirebaseAuth.getInstance().uid
+
+        val text = Messages(messageID.toString(), fromId.toString(),toId, message, System.currentTimeMillis()/1000)
+
+        if (messageID != null) {
+            dbReference.child(messageID).setValue(text).addOnCompleteListener{
+            }
+        }
+    }
+
+    private fun readMessagesDB(adapter: GroupAdapter<ViewHolder>, contact: Contact){
+        val database = FirebaseDatabase.getInstance()
+        val dbReference = database.reference.child("Messages")
+
+        dbReference.addChildEventListener(object: ChildEventListener{
+            override fun onCancelled(error: DatabaseError) {
+            }
+
+            override fun onChildMoved(snapshot: DataSnapshot, previousChildName: String?) {
+            }
+
+            override fun onChildChanged(snapshot: DataSnapshot, previousChildName: String?) {
+            }
+
+            override fun onChildAdded(snapshot: DataSnapshot, previousChildName: String?) {
+                val chat = snapshot.getValue(Messages::class.java)
+
+                if (chat != null) {
+                    if (chat.fromId.toString() == FirebaseAuth.getInstance().uid && chat.toId.toString() == contact.id){
+                        adapter.add(ChatToItem(chat?.message.toString(), contact.name))
+                    }else if (chat.fromId.toString() == contact.id && chat.toId.toString() == FirebaseAuth.getInstance().uid){
+                        adapter.add(ChatFromItem(chat?.message.toString()))
+                    }
+                }
+            }
+
+            override fun onChildRemoved(snapshot: DataSnapshot) {
+            }
+
+        })
+    }
+
+}
+
+class ChatFromItem(val text: String): Item<ViewHolder>() {
+
+    override fun bind(viewHolder: ViewHolder, position: Int){
+        viewHolder.itemView.textFromMessage.text = text
+    }
+
+    override fun getLayout(): Int {
+        return R.layout.chat_from_row
+    }
+
+}
+
+class ChatToItem(val text: String, contact: String): Item<ViewHolder>() {
+
+    override fun bind(viewHolder: ViewHolder, position: Int){
+        viewHolder.itemView.textToMessage.text = text
+    }
+
+    override fun getLayout(): Int {
+        return R.layout.chat_to_row
     }
 
 }
