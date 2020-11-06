@@ -1,4 +1,5 @@
 # pruebaAndroid
+Contacts List with Real Time Chat Application
 This project allows chatting between users through internal messages.
 
 Requerimientos:
